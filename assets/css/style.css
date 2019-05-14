@@ -1,0 +1,48 @@
+body{
+	font-family: arial, sans-serif;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+	border: 0;
+}
+
+td, th {
+	text-align: left;
+	border: 0;
+	padding: 8px;
+}
+
+th {
+	background-color: #4CAF50;
+	color: white;
+}
+
+tbody > tr:nth-child(odd){
+	background-color: #dddddd;
+}
+
+.content{
+	max-height: 300px; 
+	overflow-y: scroll; 
+	border: 1px solid black;
+	padding: 0em 1em;
+}
+
+p, h3{
+	padding: 0;
+	margin: 0.5em 0em;
+}
+
+small{
+	opacity: 0.6;
+	font-size: 0.9em;
+}
+
+textarea{
+	width: 99%; 
+	color: black; 
+	font-size: 1em;
+	resize: none;
+}
